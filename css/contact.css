@@ -1,0 +1,94 @@
+.nav1 {
+    background-color: #083880;
+}
+
+.nav1 > .nav-links > a {
+  color: #ffff;
+}
+
+.logo {
+    width: 55%;
+}
+
+.nav1 > .nav-links {
+    background-color: #083880;
+}
+
+
+
+.contactSection {
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    background-image: url("../assets/n_stanley/p4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/*MAP SECTION*/
+
+.map {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+        margin-top: 50px;
+    margin-bottom: 75px;
+    }
+
+.map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+
+
+/*FOOTER*/
+
+footer {
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/*media qs*/
+
+@media (min-width:769px) {
+    
+    
+    .mapSection {
+        padding-top: 25px;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 1025px) {
+       
+    
+/*    MAP SECTION*/
+    
+    .mapSection {
+        padding: 15px 20% 0 20%;
+    }
+    
+}

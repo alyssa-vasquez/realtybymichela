@@ -1,0 +1,210 @@
+.nav1 {
+    background-color: #083880;
+}
+
+.nav1 > .nav-links > a {
+  color: #ffff;
+}
+
+.logo {
+    width: 55%;
+}
+
+.nav1 > .nav-links {
+    background-color: #083880;
+}
+
+
+/*Carousel section*/
+
+#carousel-thumb {
+    top: 1.9em;
+}
+
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon        {
+    height: 50px;
+    width: 50px;
+}
+
+/*end carousel section*/
+
+
+
+/*LISTING SECTION*/
+
+
+/*h1 has 20px*/
+
+.listing {
+    padding-top: 30px;
+}
+
+.propAddress {
+    text-align: center;
+    color: #083880;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.propAddress h1 {
+    padding-bottom: 0px;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+
+.stats {
+    text-align: center;
+    color: #083880;
+}
+
+ h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px 0 5px 0;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.description p {
+    color: #5A5A5A;
+    padding-top: 25px;
+}
+
+.listingBtn {
+   text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.listing .button {
+    background-color: #083880;
+    width: 33%;
+    color: white;
+    border: 0;
+    height: 25px;
+    border-radius: .25rem;
+    height: 35px;
+    width: 40%;
+}
+
+
+
+
+/*MAP SECTION*/
+
+.map {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+
+.map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+
+
+/*FOOTER*/
+
+footer {
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/*media qs*/
+
+@media (min-width:769px) {
+    
+    
+    .carouselContainer > .row {
+        padding: 0px;;
+    }
+    
+    
+    .textBox {
+    width: 60%;
+}
+    
+    
+    .col-md-12 {
+        padding: 0;
+    }
+    
+    /*h1 has 20px*/
+
+    .listing {
+        padding-top: 45px;
+    }
+    
+    .listing .button {
+        width: 25%;
+        height: 2.5em;
+    }
+    
+    
+    .map {
+        margin-bottom: 75px;
+    }
+    
+    .mapSection {
+        padding-top: 25px;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 1025px) {
+    
+    
+/*    carousel section*/
+    
+       .textBox {
+    width: 40%;
+}
+    
+    
+/*    LISTING SECTION*/
+    
+    .description {
+        padding: 0 12% 0 12%;
+    }
+    
+      .listing .button {
+        width: 20%;
+        height: 2.5em;
+    }
+    
+/*    MAP SECTION*/
+    
+    .mapSection {
+        padding: 15px 8% 0 8%;
+    }
+    
+}

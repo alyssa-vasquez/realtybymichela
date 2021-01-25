@@ -1,0 +1,175 @@
+.nav1 {
+    background-color: #083880;
+}
+
+.nav1 > .nav-links > a {
+  color: #ffff;
+}
+
+.logo {
+    width: 55%;
+}
+
+.nav1 > .nav-links {
+    background-color: #083880;
+}
+
+
+
+/*ABOUT SECTION*/
+
+.aboutSection {
+    background-color: white;
+    margin-top: 50px;
+    padding: 0 7% 35px 7%; 
+}
+
+.aboutDesktop {
+    display: none;
+}
+
+.aboutSection h1{
+    color: #083880;
+}
+
+.aboutSection h1:before,
+.aboutSection h1:after {
+ background-color: #083880;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20%;
+}
+
+.headshot {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutPic {
+    padding-bottom: 25px;
+}
+
+.aboutSection p {
+    padding-bottom: 35px;
+}
+
+p {
+    color: #5A5A5A;
+}
+
+
+a.aboutBtn {
+  background-color: #083880;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+    border: 0;
+    border-radius: .25rem;
+    height: 35px;
+    width: 25%;
+    font-size: 1.8rem;
+    text-align:center; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+   .testimonials {
+        padding: 0 7% 0 7%; 
+    }
+
+
+
+/*Medium MEDIA Q*/
+
+@media (min-width:769px) {
+    
+
+
+    .aboutSection {
+            padding: 35px 3% 35px 3%;
+        }
+
+        .aboutMobile {
+        display: none;
+    }
+
+        .aboutDesktop{
+            display: initial;
+        }
+
+
+        .aboutSection {
+            display: flex;
+        }
+
+        .bio {
+            flex: 70%;
+        }
+
+        .bio p {
+            padding: 25px 0 50px 8.75%;
+        }
+
+        .aboutPic {
+            flex: 30%;
+            padding: 90px 0 0 0;
+        }
+    
+    .testimonials {
+        padding: 0 3% 0 3%; 
+    }
+    
+    
+    .quoteRow {
+        display: flex;
+        padding: 25px 0 25px 0;
+    }
+    
+    .quote1 {
+        flex: 50%;
+        padding: 25px 5px 25px 5px;
+    }
+    
+    .quote2 {
+        flex: 50%;
+        padding: 25px 5px 25px 5px;
+    }
+    
+    
+}
+
+
+
+
+/*Large Media Q*/
+
+@media screen and (min-width: 1200px) {
+    
+    /*    ABOUT*/
+    
+    
+    h2 {
+        margin-top: 75px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+        .headshot {
+        height: 500px;
+    }
+    
+        .bio p {
+            padding: 25px 8% 75px 5%;
+        }
+
+    .testimonials {
+        padding: 0 10% 0 10%; 
+    }
+    
+}

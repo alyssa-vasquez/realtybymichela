@@ -1,0 +1,570 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+    font-family: "Avenir Next";
+    font-size: 10px;
+    scroll-behavior: smooth; 
+}
+
+h1 {
+    font-size: 2.2rem;
+    padding: 20px 0 20px 0;
+    margin: 0;
+}
+
+p {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+
+.nav1 {
+    height: 5rem;
+    width: 100%;
+    background-color: rgba(255,255,255,.6);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.top {
+    position: relative;
+}
+
+.nav1 > .nav-header {
+  display: inline;
+    line-height: 50px;
+}
+
+.logo {
+    width: 60%;
+    padding: 5px 0px 0px 5px; 
+}
+
+.nav1 > .nav-header > .nav-title {
+  display: inline-block;
+}
+
+.nav1 > .nav-btn {
+  display: none;
+    float: right;
+}
+
+.nav1 > .nav-links {
+  font-size: 1.8rem;
+    display: inline;
+    float: right;
+}
+
+.nav1 > .nav-links > a {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  color: #083880;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.nav1 > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav1 > #nav-check {
+  display: none;
+}
+
+
+@media (max-width:840px) {
+  .nav1 > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav1 > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav1 > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .nav1 > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+    
+  .nav1 > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgba(255,255,255,.6);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+    
+  .nav1 > .nav-links > a {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+  }
+    
+  .nav1 > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+    
+  .nav1 > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+    
+    
+    
+    
+    /*ABOUT SECTION*/
+
+    .aboutSection {
+        padding-bottom: 35px;
+    }
+    
+}
+
+
+
+
+
+
+/*PROPERTIES SECTION*/
+
+.middleProps {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+h1 {
+ font-family: "Avenir Next";
+ color: #083880;
+ overflow: hidden;
+ text-align: center;
+}
+
+h1:before,
+h1:after {
+ background-color: #083880;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20%;
+}
+
+h1:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+
+h1:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+.img-fluid {
+    padding: 10px 20px 10px 20px;
+    position: relative;
+}
+
+.address {
+    color: white;
+    font-family: "Avenir Next";
+    font-size: 1.8rem;
+    position: absolute;
+    padding-left: 6%;
+    top: 6%;
+}
+
+.price {
+    color: white;
+    font-family: "Avenir Next";
+    font-size: 1.6rem;
+    position: absolute;
+    right: 8%;
+    top: 6%;
+}
+
+
+.spacer {
+    padding: 0 2px 0 2px;
+}
+
+
+/*
+.button {
+    background-color: #083880;
+    display: inline-block;
+    color: white;
+    border: 0;
+    height: 25px;
+    border-radius: .25rem;
+    height: 35px;
+    width: 35%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.middleProps .button {
+    background-color: #083880:
+}
+*/
+
+
+
+a.propBtn {
+  background-color: #083880;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+    border: 0;
+    border-radius: .25rem;
+    height: 35px;
+    width: 25%;
+    font-size: 1.8rem;
+    text-align:center; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*ABOUT SECTION*/
+
+.aboutSection {
+    background-color: #083880;
+}
+
+.aboutDesktop {
+    display: none;
+}
+
+.aboutSection h1{
+    color: white;
+}
+
+.aboutSection h1:before,
+.aboutSection h1:after {
+ background-color: white;
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20%;
+}
+
+.headshot {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutPic {
+    padding-bottom: 25px;
+}
+
+p {
+    color: white;
+    padding: 0px 5% 25px 5%;
+}
+
+
+a.aboutBtn {
+  background-color: rgba(255,255,255,.3);
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+    border: 0;
+    border-radius: .25rem;
+    width: 25%;
+    font-size: 1.8rem;
+    text-align:center; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*CONTACT*/
+
+.contactSection {
+    background-image: url("../assets/M1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.contactForm {
+    padding-top: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Remove outline of all elements on focus */
+  *:focus {
+  	outline: 0;
+  }
+
+  /* Add styles to 'label' selector */
+  label {
+    color: white;
+    font-family: "Avenir Next";
+    font-size: 1.6rem;
+    padding-top: 10px;
+  }
+
+  /* Add styles to 'input' and 'textarea' selectors */
+  input[type=text],input[type=email],input[type=telephone], textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255,255,255,.7);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: "Avenir Next";
+    font-size: 1.6rem;
+  }
+
+  /* Add styles to show 'focus' of selector */
+  input[type=telephone]:focus, input[type=text]:focus,input[type=email]:focus, textarea:focus {
+  	border: 1px solid white;
+  }
+
+
+  /* Style 'hover' property */
+  input[type=submit]:hover {
+  	background: white;
+  }
+
+
+.button {
+    background-color: rgba(255,255,255,.7);
+    display: inline-block;
+    color: white;
+    border: 0;
+    height: 25px;
+    border-radius: .25rem;
+    height: 35px;
+    width: 35%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.formBtn {
+   text-align:center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+footer .row {
+    padding: 0;
+}
+
+footer .py-5 {
+    padding: 0!important;
+}
+
+.cyan.darken-3 {
+    background-color: #083880!important;
+}
+
+footer img {
+    margin-right: 25px!important;
+}
+
+.AVlogo {
+    width: 25px;
+}
+
+
+
+
+
+
+
+/*Medium MEDIA Q*/
+
+@media (min-width:769px) {
+    
+    .nav-links {
+         padding-right: 10px;
+    }
+    
+    h1 {
+        font-size: 2.4rem;
+        margin: 0;
+    }
+    
+    
+/*    PROPERTIES*/
+    
+    .col-md-4 {
+        padding: 0;
+    }
+    
+    .middleProps {
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+    }
+    
+    .img-fluid {
+        padding: 0 7.5px 0 7.5px;
+    }
+    
+    .row {
+        margin: 0;
+        padding: 20px 7.5px 20px 7.5px;
+    }
+
+    .address {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        padding-left: 5%;
+        top: 1rem;
+}
+
+    .price {
+        font-size: 1.4rem;
+        top: 3rem;
+        left: 0;
+        padding-left: 5%;
+    }
+
+
+    .spacer {
+        padding: 0 2px 0 2px;
+    }
+    
+    
+    
+    
+    
+    
+/*    ABOUT SECTION*/
+    
+    .aboutSection {
+        padding: 35px 5% 35px 5%;
+    }
+    
+    .aboutMobile {
+    display: none;
+}
+    
+    .aboutDesktop{
+        display: initial;
+    }
+    
+
+    .aboutSection {
+        display: flex;
+    }
+    
+    
+    .bio {
+        flex: 70%;
+    }
+    
+    .bio p {
+        padding: 20px 0 25px 8.75%;
+    }
+    
+    .aboutPic {
+        flex: 30%;
+        padding: 0;
+    }
+    
+    
+    a.aboutBtn {
+        margin-top: 25px;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large Media Q*/
+
+@media screen and (min-width: 1200px) {
+    
+/*    ABOUT*/
+    
+/*
+    .headshot {
+    height: 500px;
+*/
+}
+    
+    .bio {
+
+    }
+    
+    
+    .address {
+        font-size: 1.8rem;
+    }
+    
+     .price {
+        font-size: 1.6rem;
+    }
+    
+    
+    
+    .contactForm {
+    width: 55%;
+  }
+    
+    
+
+    
+    
+}

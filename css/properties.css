@@ -1,0 +1,33 @@
+.nav1 {
+    background-color: #083880;
+}
+
+.nav1 > .nav-links > a {
+  color: #ffff;
+}
+
+.logo {
+    width: 55%;
+}
+
+.nav1 > .nav-links {
+    background-color: #083880;
+}
+
+
+.images {
+    padding-top: 5rem;
+}
+
+.row {
+    padding: 1rem;
+}
+
+.col {
+    padding: 1rem;
+}
+
+
+.spacer {
+    padding: 0 2px 0 2px;
+}
